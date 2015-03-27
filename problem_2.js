@@ -1,23 +1,20 @@
 
-var fibonacci = function(limit) {
-    var sum = 0;
-    var sequence = [];
-    sequence.push(1);
-    sequence.push(2);
-    sequence.push(3);
-    sequence.push(i);
+var fibonacci = function() {
+    var total = 0;
+    var first = 1;
+    var second = 2;
+    var third = 0;
 
-    for(i = sequence[2] + sequence[1]; i < 4000000; i += ) {
-        sequence.push(i);
-
-        if(i % 2 == 0) {
-            sum =+ i;
-        } else {
-
+    while(first < 4000000) {
+        if(first % 2 == 0) {
+            total += first;
         }
+        third = first + second;
+        first = second;
+        second = third;
     }
 
-    return sum;
+    return total;
 }
 
 fibonacci();

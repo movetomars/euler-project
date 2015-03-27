@@ -1,6 +1,6 @@
 
 
-var numbers = function(input) {
+var first = function() {
     var sum = 0;
     for(i=1; i < 1000; i++) {
         if(i % 3 == 0) {
@@ -12,8 +12,10 @@ var numbers = function(input) {
 
     return sum;
 
-};
+}
 
-console.log(sum);
+first();
+
+
 
 
