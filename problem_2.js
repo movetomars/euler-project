@@ -5,8 +5,8 @@ var fibonacci = function() {
     var second = 2;
     var third = 0;
 
-    while(first < 4000000) {
-        if(first % 2 == 0) {
+    while (first < 4000000) {
+        if (first % 2 == 0) {
             total += first;
         }
         third = first + second;
@@ -17,8 +17,5 @@ var fibonacci = function() {
     return total;
 }
 
-<<<<<<< HEAD
 fibonacci();
-=======
-fibonacci();
->>>>>>> 8271163997e96b4f9fe04d53556f20731a1044ea
+
